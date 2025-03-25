@@ -1,0 +1,23 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lil-gui": "^0.19.2",
+    "three": "^0.150.1",
+    "tone": "^15.0.4",
+    "vite": "^5.4.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
